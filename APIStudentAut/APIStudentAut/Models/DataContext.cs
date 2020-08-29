@@ -9,5 +9,7 @@ namespace APIStudentAut.Models
         {         
 
         }
+
+        public System.Data.Entity.DbSet<APIStudentAut.Models.Student> Students { get; set; }
     }
 }
